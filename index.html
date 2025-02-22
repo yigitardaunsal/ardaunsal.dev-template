@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yiğit Arda ÜNSAL</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-481MXPXNS9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-481MXPXNS9');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yiğit Arda Ünsal</title>
+  <meta name="description" content="Sr. Front-end Developer">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap">
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./fontello/css/fontello.css">
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <section id="app">
-        <img class="pp" :src="pp" :alt="name">
-        <h2 class="subheading">{{ subheading }}</h2>
-        <div class="social-media">
-            <a :href="mail" target="_blank" class="icon-mail-alt"></a>
-            <a :href="linkedin" target="_blank" class="icon-linkedin"></a>
-        </div>
-        <h1 class="heading">{{ name }}</h1>
+  <header class="header">
+    <div class="container">
+      <h1 class="header-title">Hello, I'm Yiğit Arda 👋</h1>
+      <h2 class="header-subtitle">a software developer passionate about front-end and mobile technologies.</h2>
+    </div>
+  </header>
+  <main class="container">
+    <section class="about">
+      <p>
+        Currently, I work as a senior front-end developer a <a href="https://www.beymengroup.com/"
+          target="_blank">Beymen Group</a>.
+      </p>
+      <p>
+        I'm pursuing a degree in Computer Programming at Istanbul University and hold a bachelor's degree in
+        Econometrics from Çukurova University (2018).
+      </p>
+      <p>
+        Outside of work, I enjoy traveling, motorcycle riding, horseback riding, and engaging in meaningful
+        conversations.
+      </p>
     </section>
-    <script src="js/app.min.js"></script>
+    <section class="contact">
+      <a href="mailto:y.ardaunsal@gmail.com" class="contact-item"><i class="icon-mail-alt"></i></a>
+      <a href="https://www.linkedin.com/in/yigit-arda-unsal" target="_blank" class="contact-item"><i
+          class="icon-linkedin-squared"></i></a>
+      <a href="https://github.com/yigitardaunsal" target="_blank" class="contact-item"><i
+          class="icon-github-circled"></i></a>
+    </section>
+  </main>
 </body>
+
 </html>
